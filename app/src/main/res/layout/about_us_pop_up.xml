@@ -38,17 +38,7 @@
                 android:text="third party license"/>
 
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"
-                android:textSize="18dp"
-                android:padding="10dp"
-                android:text="
-https://newsapi.org\n
-https://square.github.io/retrofit\n
-https://material.io/design\n
-http://www.ocpsoft.org/prettytime"/>
+
         </LinearLayout>
 
 
