@@ -12,7 +12,7 @@ https://drive.google.com/file/d/1MR_zTl04OQoqmc7AgYqttTUCqblOHeX2/view?usp=shari
 
 ## Screenshot of App!
 
-<img src="https://user-images.githubusercontent.com/63090622/117772736-1e955700-b255-11eb-955c-998f73f4f747.jpg" alt="Girl in a jacket" width="400" height="600">
+<img src="https://user-images.githubusercontent.com/63090622/117772736-1e955700-b255-11eb-955c-998f73f4f747.jpg" alt="Splash Screen" width="400" height="600">
 
-<img src="https://user-images.githubusercontent.com/63090622/117772727-1ccb9380-b255-11eb-8e9d-e6b7f1ec75b9.jpg" alt="Girl in a jacket" width="400" height="600">
+<img src="https://user-images.githubusercontent.com/63090622/117772727-1ccb9380-b255-11eb-8e9d-e6b7f1ec75b9.jpg" alt="News window" width="400" height="600">
 
