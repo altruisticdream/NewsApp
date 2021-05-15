@@ -11,15 +11,24 @@
         android:roundIcon="@drawable/circle_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.NewsApp">
-        <activity android:name=".Detailed" android:screenOrientation="locked" android:windowSoftInputMode="stateHidden"></activity>
-        <activity android:name=".SplashScreen" android:screenOrientation="locked" >
+        <activity android:name=".Login"></activity>
+        <activity
+            android:name=".Detailed"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="locked">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" android:screenOrientation="locked" android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="stateHidden" />
     </application>
 
 </manifest>
