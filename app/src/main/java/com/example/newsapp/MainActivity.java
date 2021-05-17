@@ -62,7 +62,7 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
         setSupportActionBar(toolbar);
 
         Menu menu=navigationView.getMenu();
-        menu.findItem(R.id.nav_logout).setVisible(false);
+
         menu.findItem(R.id.nav_profile).setVisible(false);
 
         navigationView.bringToFront();
