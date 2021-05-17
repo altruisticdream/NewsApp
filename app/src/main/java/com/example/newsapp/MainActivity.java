@@ -85,6 +85,10 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         final String country = getCountry();
 
+        //------------------------------------------------------------------------------//
+
+
+        //------------------------------------------------------------------------------//
 
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
