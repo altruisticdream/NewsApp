@@ -211,7 +211,10 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
                 Intent intent=new Intent(MainActivity.this,Login.class);
                 startActivity(intent);
                 break;
-
+            case R.id.developer:
+                Intent inten=new Intent(MainActivity.this,developer.class);
+                startActivity(inten);
+                break;
             case R.id.nav_share:
                 Toast.makeText(this,"share",Toast.LENGTH_SHORT).show();
                 break;
