@@ -11,7 +11,9 @@
         android:roundIcon="@drawable/circle_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.NewsApp">
-        <activity android:name=".Login"></activity>
+        <activity android:name=".developer"></activity>
+        <activity android:name=".Signup" />
+        <activity android:name=".Login" />
         <activity android:name=".signup" />
         <activity
             android:name=".Detailed"

@@ -42,15 +42,25 @@ dependencies {
 
 
     //---------firebase----------------------------------------//
+    implementation platform('com.google.firebase:firebase-bom:28.0.1')
 
-
+    implementation 'com.google.firebase:firebase-auth:20.0.3'
+    implementation 'com.google.firebase:firebase-core:18.0.3'
     //Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.2.0'
-
+    implementation 'com.google.firebase:firebase-analytics'
     //Date/Time
     implementation 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
 
     //Picaso for image url
     implementation 'com.squareup.picasso:picasso:2.5.0'
+
+
+
+
+
+
+
 }
+apply plugin: 'com.google.gms.google-services'

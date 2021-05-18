@@ -24,6 +24,7 @@ import android.widget.Toast;
 import com.example.newsapp.model.Articles;
 import com.example.newsapp.model.Headlines;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -73,6 +74,13 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
         navigationView.setNavigationItemSelectedListener(this);
 
         navigationView.setCheckedItem(R.id.nav_home);
+
+
+
+        //------------------------------------------------------------------------------//
+
+
+        //------------------------------------------------------------------------------//
         //=================================//
         swipeRefreshLayout = findViewById(R.id.swipeRefresh);
         recyclerView = findViewById(R.id.recyclerView);
@@ -85,10 +93,7 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         final String country = getCountry();
 
-        //------------------------------------------------------------------------------//
 
-
-        //------------------------------------------------------------------------------//
 
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
