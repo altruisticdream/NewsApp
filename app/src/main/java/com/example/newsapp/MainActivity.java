@@ -46,6 +46,7 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
     List<Articles>  articles = new ArrayList<>();
 
     Button btnsignout;
+
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
@@ -78,8 +79,7 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
 
 
         //------------------------------------------------------------------------------//
-
-
+        
         //------------------------------------------------------------------------------//
         //=================================//
         swipeRefreshLayout = findViewById(R.id.swipeRefresh);
