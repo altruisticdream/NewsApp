@@ -46,6 +46,7 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
     List<Articles>  articles = new ArrayList<>();
 
     Button btnsignout;
+
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
@@ -78,8 +79,7 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
 
 
         //------------------------------------------------------------------------------//
-
-
+        
         //------------------------------------------------------------------------------//
         //=================================//
         swipeRefreshLayout = findViewById(R.id.swipeRefresh);
@@ -87,7 +87,7 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
 
         etQuery = findViewById(R.id.etQuery);
         btnSearch = findViewById(R.id.btnSearch);
-        btnAboutUs = findViewById(R.id.aboutUs);
+        //btnAboutUs = findViewById(R.id.aboutUs);
         dialog = new Dialog(MainActivity.this);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -126,12 +126,12 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
             }
         });
 
-        btnAboutUs.setOnClickListener(new View.OnClickListener() {
+        /*btnAboutUs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 showDialog();
             }
-        });
+        });*/
 
 
 
