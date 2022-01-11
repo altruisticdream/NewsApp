@@ -1,5 +1,5 @@
 # NewsApp
-This app is used to read news I have build it using android studio.
+The project is an application which will display news articles and videos verified and approved at newsapi.com .User can browse news articles by simply by clicking on the headlines. App will enable user to view news details, images, and video
 
 ## Tools Used
 1. Android Studio
