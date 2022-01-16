@@ -18,6 +18,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -40,12 +41,11 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
     SwipeRefreshLayout swipeRefreshLayout;
     EditText etQuery;
     Button btnSearch,btnAboutUs;
-    Dialog dialog;
     final String API_KEY = "f9044c0aeb42494e9af32c9d3fce44e0";
     Adapter adapter;
     List<Articles>  articles = new ArrayList<>();
 
-    Button btnsignout;
+    ImageView imageView;
 
     DrawerLayout drawerLayout;
     NavigationView navigationView;
@@ -76,8 +76,17 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
 
         navigationView.setCheckedItem(R.id.nav_home);
 
-
-
+        imageView=findViewById(R.id.signout);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FirebaseAuth.getInstance().signOut();
+                finish();
+               Intent inttomain=new Intent(MainActivity.this,SplashScreen.class);
+                //System.exit(0);
+                startActivity(inttomain);
+            }
+        });
         //------------------------------------------------------------------------------//
         
         //------------------------------------------------------------------------------//
@@ -88,7 +97,7 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
         etQuery = findViewById(R.id.etQuery);
         btnSearch = findViewById(R.id.btnSearch);
         //btnAboutUs = findViewById(R.id.aboutUs);
-        dialog = new Dialog(MainActivity.this);
+
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         final String country = getCountry();
@@ -177,19 +186,7 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
         return country.toLowerCase();
     }
 
-    public void showDialog(){
-        Button btnClose;
-        dialog.setContentView(R.layout.about_us_pop_up);
-        dialog.show();
-        btnClose = dialog.findViewById(R.id.close);
 
-        btnClose.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                dialog.dismiss();
-            }
-        });
-    }
 
     public void onBackPressed()
     {
@@ -210,6 +207,10 @@ public class MainActivity<toggle> extends AppCompatActivity implements Navigatio
             case R.id.nav_login:
                 Intent intent=new Intent(MainActivity.this,Login.class);
                 startActivity(intent);
+                break;
+            case R.id.nav_logout:
+                Intent intet=new Intent(MainActivity.this,Login.class);
+                startActivity(intet);
                 break;
             case R.id.developer:
                 Intent inten=new Intent(MainActivity.this,developer.class);

@@ -27,34 +27,41 @@
         android:orientation="horizontal">
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:background="#FFF7F7F8"
+            android:layout_width="50dp"
+            android:layout_height="49dp"
+
+            android:paddingLeft="10dp"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-        <ImageView
-            android:id="@+id/drawableLeft"
-            android:layout_width="wrap_content"
-            android:padding="10dp"
-            android:layout_height="wrap_content"
-            android:layout_toLeftOf="@id/main_Heading"
-            android:src="@drawable/ic_baseline_menu_24" />
 
         <TextView
             android:id="@+id/main_Heading"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_weight="10"
             android:padding="10dp"
-            android:text="NEWS APPLICATION"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
 
+            android:text="NEWS APPLICATION"
+            android:textAlignment="viewStart"
+            android:textColor="@color/blue"
+            android:textSize="20sp"/>
+        <ImageView
+            android:id="@+id/signout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.142"
+            app:srcCompat="@drawable/signout" />
 
     </LinearLayout>
 
@@ -67,28 +74,30 @@
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:columnCount="2"
-
         android:rowCount="2">
+
         <EditText
             android:id="@+id/etQuery"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_height="38dp"
             android:layout_row="0"
             android:layout_column="0"
+            android:layout_marginTop="1dp"
             android:layout_columnWeight="1"
             android:background="@drawable/custom_button"
             android:ems="10"
             android:hint="Search"
             android:inputType="textPersonName"
             android:paddingLeft="10dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black" />
+            android:textColor="@color/blue"
+            android:textColorHint="@color/grey" />
 
         <Button
             android:id="@+id/btnSearch"
             android:layout_width="72dp"
-            android:layout_height="40dp"
+            android:layout_height="38dp"
             android:layout_row="0"
+            android:layout_marginLeft="10dp"
             android:layout_column="1"
             android:background="@drawable/custom_button1"
             android:drawableRight="@drawable/ic_search_black_24dp"

@@ -33,6 +33,7 @@ public class Signup extends AppCompatActivity {
         password = findViewById(R.id.editTextTextPassword);
         btnSignUp = findViewById(R.id.buttonman);
         tvSignIn = findViewById(R.id.textView);
+
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

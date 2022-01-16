@@ -21,6 +21,8 @@ public class Login extends AppCompatActivity {
     EditText emailID, password;
     Button btnSignIn;
     TextView tvSignUp;
+    Button btnsignout;
+
     FirebaseAuth mFirebaseAuth;
     private FirebaseAuth.AuthStateListener mAuthStateListner;
 
@@ -50,6 +52,7 @@ public class Login extends AppCompatActivity {
 
             }
         };
+
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -80,6 +83,17 @@ public class Login extends AppCompatActivity {
             }
 
         });
+        /*btnsignout=findViewById(R.id.nav_logout);
+        btnsignout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FirebaseAuth.getInstance().signOut();
+                //Intent inttomain=new Intent(Login.this, Signup.class);
+                //startActivity(inttomain);
+            }
+        });
+
+         */
         tvSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
