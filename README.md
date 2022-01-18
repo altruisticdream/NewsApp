@@ -12,8 +12,15 @@ https://drive.google.com/file/d/1MR_zTl04OQoqmc7AgYqttTUCqblOHeX2/view?usp=shari
 
 ## Screenshot of App!
 
-<img src="https://user-images.githubusercontent.com/63090622/117772736-1e955700-b255-11eb-955c-998f73f4f747.jpg" alt="Splash Screen" width="400" height="600">
+<img src="https://user-images.githubusercontent.com/63090622/149922903-daf8c482-a33d-4cdc-8968-aa9f134e8048.jpeg" alt="Splash Screen" width="400" height="600">
 
-<img src="https://user-images.githubusercontent.com/63090622/117772727-1ccb9380-b255-11eb-8e9d-e6b7f1ec75b9.jpg" alt="News window" width="400" height="600">
+<img src="https://user-images.githubusercontent.com/63090622/149922991-7eecccc9-0959-4fea-b18a-ea3d606b6512.jpeg" alt="News window" width="400" height="600">
 
-<img src="https://user-images.githubusercontent.com/63090622/118534476-e7e4a280-b766-11eb-96f9-39952be45255.jpg" alt="News window" width="400" height="600">
+<img src="https://user-images.githubusercontent.com/63090622/149923085-e30f95c5-9db4-47c1-88b1-d4fe2398b931.jpeg" alt="News window" width="400" height="600">
+
+<img src="https://user-images.githubusercontent.com/63090622/149923327-54062f33-f91f-4835-943f-b367b7f54a78.jpeg" alt="News window" width="400" height="600">
+
+<img src="https://user-images.githubusercontent.com/63090622/149923317-9d465360-0f58-44a2-9704-723d0f8d67c8.jpeg" alt="News window" width="400" height="600">
+
+
+
