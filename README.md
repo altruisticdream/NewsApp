@@ -18,9 +18,9 @@ https://drive.google.com/file/d/1MR_zTl04OQoqmc7AgYqttTUCqblOHeX2/view?usp=shari
 
 <img src="https://user-images.githubusercontent.com/63090622/149923085-e30f95c5-9db4-47c1-88b1-d4fe2398b931.jpeg" alt="News window" width="400" height="600">
 
-<img src="https://user-images.githubusercontent.com/63090622/149923327-54062f33-f91f-4835-943f-b367b7f54a78.jpeg" alt="News window" width="400" height="600">
+<img src="https://user-images.githubusercontent.com/63090622/151237812-5e57f8c8-1bd9-4265-ae8c-fb47a337e15f.jpeg" alt="News window" width="400" height="600">
 
-<img src="https://user-images.githubusercontent.com/63090622/149923317-9d465360-0f58-44a2-9704-723d0f8d67c8.jpeg" alt="News window" width="400" height="600">
+<img src="https://user-images.githubusercontent.com/63090622/151237843-d6034c4c-2a08-46f6-8852-67ac94d0f5aa.jpeg" alt="News window" width="400" height="600">
 
 
 
